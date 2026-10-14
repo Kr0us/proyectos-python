@@ -1,0 +1,29 @@
+# Caché y archivos generados por Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Variables de entorno y credenciales locales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Configuración local del editor y del sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Horario académico personal (se conserva solo en el equipo)
+/practicando python/promedio profe/horario.png
